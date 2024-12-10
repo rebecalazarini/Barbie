@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem-vindo ao Mundo da Barbie!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container-header">
+      <img src="https://i.pinimg.com/736x/ee/35/cd/ee35cd2de2a4a85611f5f4248af1c67b.jpg" alt="Barbie Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#aventuras">Aventuras</a></li>
+          <li><a href="#estilo">Estilo</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="intro">
+    <h1>Bem-vindo ao Mundo Mágico da Barbie!</h1>
+    <p>Entre no universo da Barbie, onde estilo, aventura e diversão se encontram!</p>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <h2>Quem é a Barbie?</h2>
+    <p>A Barbie é uma das maiores ícones de estilo, criatividade e empoderamento. Desde 1959, ela inspira gerações com suas diversas profissões e suas aventuras pelo mundo!</p>
+  </section>
+
+  <section id="aventuras" class="aventuras">
+    <h2>Aventuras da Barbie</h2>
+    <p>Explore os mundos fantásticos da Barbie, desde suas viagens ao redor do globo até as mais incríveis histórias de super-heróis e princesas.</p>
+    <div class="aventuras-gallery">
+      <img src="https://br.web.img2.acsta.net/pictures/22/05/06/18/49/2100972.jpg" alt="Aventura 1">
+      <img src="https://static.wikia.nocookie.net/dublagem/images/7/73/Barbie_em_Vida_de_Sereia.jpg/revision/latest?cb=20221130110746&path-prefix=pt-br" alt="Aventura 2">
+      <img src="https://m.media-amazon.com/images/I/91WMCwPQZ4L._AC_UF1000,1000_QL80_.jpg" alt="Aventura 3">
+    </div>
+  </section>
+
+  <section id="estilo" class="estilo">
+    <h2>O Estilo Barbie</h2>
+    <p>Conheça os looks icônicos da Barbie e se inspire para criar o seu próprio estilo único, com roupas incríveis e acessórios deslumbrantes!</p>
+    <div class="estilo-gallery">
+      <img src="https://i.pinimg.com/originals/92/db/6d/92db6df4e544b49ede8cda3db68a18e6.jpg" alt="Look 1">
+      <img src="https://i.pinimg.com/236x/00/64/c8/0064c879ecdc0490a12d695591cb1255.jpg" alt="Look 2">
+      <img src="https://i.pinimg.com/originals/1b/d0/71/1bd07184f7e6a748c8a6736a6111b15e.jpg" alt="Look 3">
+    </div>
+  </section>
+
+  <footer id="contato">
+    <div class="container-footer">
+      <p>Entre em contato com a Barbie! 💖</p>
+      <p>Instagram | Facebook | TikTok</p>
+    </div>
+  </footer>
+
+  <style>
+    /* Estilo do Corpo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f0e0f5;
+  color: #222;
+  padding: 0 2rem;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #ff69b4;
+  padding: 20px 0;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* Seção Inicial */
+.intro {
+  text-align: center;
+  padding: 80px 0;
+  background: linear-gradient(135deg, #ff8cdb, #ff69b4);
+  color: white;
+  border-radius: 10px;
+}
+
+.intro h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.5rem;
+}
+
+/* Seções */
+section {
+  margin: 60px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ff69b4;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Galerias de Imagens */
+.aventuras-gallery, .estilo-gallery {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.aventuras-gallery img, .estilo-gallery img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.aventuras-gallery img:hover, .estilo-gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+  background-color: #ff69b4;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+footer p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+  </style>
+</body>
+</html>
